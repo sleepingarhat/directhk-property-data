@@ -1,0 +1,16 @@
+name: "Prop Pool B Daily — Midland + Centaline Transactions"
+on:
+  schedule:
+    - cron: "30 22 * * *" # 每日清晨自動抓取各大行二手一手成交
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Agency Deals Scraper
+        run: echo "Scraping Daily Deals..."
