@@ -1,0 +1,16 @@
+name: "Prop Data Integrity Audit — Anomaly Filter"
+on:
+  schedule:
+    - cron: "0 3 * * *" # 每日清洗離群值與內部轉讓
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Audit & Filter Anomalies
+        run: echo "Auditing property records..."
