@@ -1,0 +1,16 @@
+name: "Prop Pool C Rental — Rentals + Yield Tracker"
+on:
+  schedule:
+    - cron: "0 23 * * *" # 每日抓取租盤成交與推算回報率
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Rental Yield Engine
+        run: echo "Scraping Rental Data..."
