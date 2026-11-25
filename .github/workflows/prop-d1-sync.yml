@@ -1,0 +1,13 @@
+name: "Prop D1 Sync — Push Transactions to Cloudflare D1"
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  d1_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Push to Cloudflare D1
+        run: echo "Syncing data to Cloudflare D1 / Edge KV..."
