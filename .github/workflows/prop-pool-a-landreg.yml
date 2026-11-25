@@ -1,0 +1,16 @@
+name: "Prop Pool A — Land Registry Monthly Records"
+on:
+  schedule:
+    - cron: "0 2 5 * *" # 每月5號抓取上月土地註冊處官方成交
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Land Registry Scraper
+        run: echo "Scraping Land Registry Data..."
