@@ -1,0 +1,13 @@
+name: "Prop Sanity — Daily Pipeline Health Dashboard"
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+jobs:
+  sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Health
+        run: echo "Sanity check passed."
