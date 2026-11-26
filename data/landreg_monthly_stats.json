@@ -2,8 +2,11 @@
   "metadata": {
     "title": "土地註冊處 - 每月送交註冊的住宅樓宇買賣合約數目(按金額分類)",
     "source": "香港特別行政區政府 土地註冊處 (data.gov.hk hk-lr-data5-landreg)",
-    "updated_at": "2026-11-26T17:24:53.976023+00:00",
-    "records_count": 22
+    "updated_at": "2026-11-26T18:04:35.255351+00:00",
+    "last_attempt_at": "2026-11-26T18:04:35.255351+00:00",
+    "validation_status": "passed",
+    "records_count": 22,
+    "duplicates_filtered": 0
   },
   "data": [
     {
