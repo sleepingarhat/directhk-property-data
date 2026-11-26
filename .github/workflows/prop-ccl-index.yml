@@ -1,16 +1,26 @@
 name: "Prop CCL Sync — Centa-City Leading Index"
 on:
   schedule:
-    - cron: "0 9 * * 5" # 每週五下午 CCL 指數公佈後更新
+    - cron: "0 8 * * 5" # 每週五下午同步中原CCI成份屋苑
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  ccl:
+  scrape:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Sync CCL Index
-        run: echo "Syncing CCL Index..."
+      - name: Run Centaline Master Scraper
+        run: |
+          python scrapers/centaline_master_scraper.py
+      - name: Commit and Push Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): automated centaline estates sync [skip ci]" && git push)
