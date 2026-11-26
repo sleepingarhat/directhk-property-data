@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "title": "香港最新住宅成交與租賃紀錄",
+    "updated_at": "2026-11-26T17:22:52.029539+00:00",
+    "total_records": 24,
+    "sources_breakdown": {
+      "土地註冊處登記 (Land Registry)": 17,
+      "美聯成交速報 (Midland Feed)": 7
+    },
+    "provider": "Midland Realty + Land Registry Certified Feed"
+  },
+  "records": [
+    {
+      "id": "NO2026112526112500670133",
+      "estate_name": "萬寶大廈",
+      "building_name": "萬寶大廈",
+      "district": "北角 / 炮台山",
+      "region": "港島",
+      "floor": "8",
+      "flat": "B",
+      "transaction_type": "買賣",
+      "price_hkd": 3250000,
+      "net_area_sqft": 281,
+      "unit_price_sqft": 11566,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500180622",
+      "estate_name": "永華大廈",
+      "building_name": "425W 皇后大道西",
+      "district": "港島西",
+      "region": "港島",
+      "floor": "9",
+      "flat": "RP",
+      "transaction_type": "買賣",
+      "price_hkd": 4400000,
+      "net_area_sqft": 510,
+      "unit_price_sqft": 8624,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112501220034",
+      "estate_name": "祐德大廈",
+      "building_name": "祐德大廈",
+      "district": "灣仔 / 銅鑼灣",
+      "region": "港島",
+      "floor": "12",
+      "flat": "167",
+      "transaction_type": "買賣",
+      "price_hkd": 4500000,
+      "net_area_sqft": 460,
+      "unit_price_sqft": 9783,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500390178",
+      "estate_name": "杏翠苑",
+      "building_name": "B座",
+      "district": "柴灣",
+      "region": "港島",
+      "floor": "32",
+      "flat": "9",
+      "transaction_type": "買賣",
+      "price_hkd": 4900000,
+      "net_area_sqft": 645,
+      "unit_price_sqft": 7600,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500080023",
+      "estate_name": "太安樓",
+      "building_name": "太安樓",
+      "district": "筲箕灣",
+      "region": "港島",
+      "floor": "14",
+      "flat": "52",
+      "transaction_type": "買賣",
+      "price_hkd": 3600000,
+      "net_area_sqft": 352,
+      "unit_price_sqft": 10228,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500600020",
+      "estate_name": "珍珠閣",
+      "building_name": "B座",
+      "district": "港島西",
+      "region": "港島",
+      "floor": "23",
+      "flat": "1",
+      "transaction_type": "買賣",
+      "price_hkd": 5780000,
+      "net_area_sqft": 395,
+      "unit_price_sqft": 14633,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112501540017",
+      "estate_name": "銳興樓",
+      "building_name": "銳興樓",
+      "district": "灣仔 / 銅鑼灣",
+      "region": "港島",
+      "floor": "3",
+      "flat": "B",
+      "transaction_type": "買賣",
+      "price_hkd": 4000000,
+      "net_area_sqft": 366,
+      "unit_price_sqft": 10929,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500180631",
+      "estate_name": "友福園",
+      "building_name": "友福園",
+      "district": "北角 / 炮台山",
+      "region": "港島",
+      "floor": "13",
+      "flat": "A",
+      "transaction_type": "買賣",
+      "price_hkd": 4600000,
+      "net_area_sqft": 393,
+      "unit_price_sqft": 11705,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "I20261002474",
+      "estate_name": "瑰麗新村",
+      "building_name": "3座",
+      "district": "又一村 / 石硤尾",
+      "region": "九龍",
+      "floor": null,
+      "flat": "C",
+      "transaction_type": "出租",
+      "price_hkd": 50000,
+      "net_area_sqft": 912,
+      "unit_price_sqft": 55,
+      "transaction_date": "2026-11-25",
+      "verified_source": "美聯成交速報 (Midland Feed)",
+      "raw_source_tags": [
+        "MIDLAND"
+      ]
+    },
+    {
+      "id": "NO2026112526112501590040",
+      "estate_name": "興仁街25-31號",
+      "building_name": "興仁街25-31號",
+      "district": "土瓜灣",
+      "region": "九龍",
+      "floor": "5",
+      "flat": "25",
+      "transaction_type": "買賣",
+      "price_hkd": 3080000,
+      "net_area_sqft": 473,
+      "unit_price_sqft": 6512,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "I20261002516",
+      "estate_name": "Sierra Sea",
+      "building_name": "Coral Avenue 第2座",
+      "district": "西貢 / 清水灣",
+      "region": "九龍",
+      "floor": "5",
+      "flat": "C",
+      "transaction_type": "買賣",
+      "price_hkd": 10330000,
+      "net_area_sqft": 644,
+      "unit_price_sqft": 16040,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500180907",
+      "estate_name": "灝然",
+      "building_name": "1A座",
+      "district": "觀塘",
+      "region": "九龍",
+      "floor": "21",
+      "flat": "D",
+      "transaction_type": "買賣",
+      "price_hkd": 3022000,
+      "net_area_sqft": 302,
+      "unit_price_sqft": 10007,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG",
+        "FIRSTHAND"
+      ]
+    },
+    {
+      "id": "NO2026112526112500180884",
+      "estate_name": "瑞寧樓",
+      "building_name": "瑞寧樓",
+      "district": "觀塘",
+      "region": "九龍",
+      "floor": "3",
+      "flat": "C7",
+      "transaction_type": "買賣",
+      "price_hkd": 1460000,
+      "net_area_sqft": 274,
+      "unit_price_sqft": 5328,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500300011",
+      "estate_name": "長豐大廈",
+      "building_name": "長豐大廈",
+      "district": "大角咀",
+      "region": "九龍",
+      "floor": "11",
+      "flat": "L",
+      "transaction_type": "買賣",
+      "price_hkd": 2220000,
+      "net_area_sqft": 353,
+      "unit_price_sqft": 6289,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112501790151",
+      "estate_name": "崇齡大廈",
+      "building_name": "崇齡大廈",
+      "district": "鑽石山 / 新蒲崗 / 牛池灣",
+      "region": "九龍",
+      "floor": "14",
+      "flat": "A5",
+      "transaction_type": "買賣",
+      "price_hkd": 3900000,
+      "net_area_sqft": 380,
+      "unit_price_sqft": 10263,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG"
+      ]
+    },
+    {
+      "id": "NO2026112526112500400096",
+      "estate_name": "啟德海灣",
+      "building_name": "1A座",
+      "district": "啟德",
+      "region": "九龍",
+      "floor": "8",
+      "flat": "A",
+      "transaction_type": "買賣",
+      "price_hkd": 18088000,
+      "net_area_sqft": 771,
+      "unit_price_sqft": 23460,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG",
+        "FIRSTHAND"
+      ]
+    },
+    {
+      "id": "I20261100560",
+      "estate_name": "上然",
+      "building_name": "2座",
+      "district": "大埔",
+      "region": "新界",
+      "floor": {
+        "id": "L",
+        "name": "低層"
+      },
+      "flat": "B1",
+      "transaction_type": "出租",
+      "price_hkd": 25500,
+      "net_area_sqft": 713,
+      "unit_price_sqft": 36,
+      "transaction_date": "2026-11-25",
+      "verified_source": "美聯成交速報 (Midland Feed)",
+      "raw_source_tags": [
+        "MIDLAND"
+      ]
+    },
+    {
+      "id": "I20261100367",
+      "estate_name": "上然",
+      "building_name": "2座",
+      "district": "大埔",
+      "region": "新界",
+      "floor": {
+        "id": "L",
+        "name": "低層"
+      },
+      "flat": "C9",
+      "transaction_type": "出租",
+      "price_hkd": 18500,
+      "net_area_sqft": 429,
+      "unit_price_sqft": 43,
+      "transaction_date": "2026-11-25",
+      "verified_source": "美聯成交速報 (Midland Feed)",
+      "raw_source_tags": [
+        "MIDLAND"
+      ]
+    },
+    {
+      "id": "I20261100680",
+      "estate_name": "名城",
+      "building_name": "5座",
+      "district": "沙田",
+      "region": "新界",
+      "floor": {
+        "id": "M",
+        "name": "中層"
+      },
+      "flat": "SC",
+      "transaction_type": "出租",
+      "price_hkd": 40000,
+      "net_area_sqft": 844,
+      "unit_price_sqft": 47,
+      "transaction_date": "2026-11-25",
+      "verified_source": "美聯成交速報 (Midland Feed)",
+      "raw_source_tags": [
+        "MIDLAND"
+      ]
+    },
+    {
+      "id": "I20261100987",
+      "estate_name": "駿景園",
+      "building_name": "11座",
+      "district": "九肚山 / 火炭",
+      "region": "新界",
+      "floor": {
+        "id": "M",
+        "name": "中層"
+      },
+      "flat": "F",
+      "transaction_type": "出租",
+      "price_hkd": 35000,
+      "net_area_sqft": 974,
+      "unit_price_sqft": 36,
+      "transaction_date": "2026-11-25",
+      "verified_source": "美聯成交速報 (Midland Feed)",
+      "raw_source_tags": [
+        "MIDLAND"
+      ]
+    },
+    {
+      "id": "I20261101084",
+      "estate_name": "柏傲莊",
+      "building_name": "8B座",
+      "district": "沙田",
+      "region": "新界",
+      "floor": {
+        "id": "H",
+        "name": "高層"
+      },
+      "flat": "E",
+      "transaction_type": "出租",
+      "price_hkd": 28000,
+      "net_area_sqft": 475,
+      "unit_price_sqft": 59,
+      "transaction_date": "2026-11-25",
+      "verified_source": "美聯成交速報 (Midland Feed)",
+      "raw_source_tags": [
+        "MIDLAND"
+      ]
+    },
+    {
+      "id": "I20261001424",
+      "estate_name": "偉華中心",
+      "building_name": "1座",
+      "district": "沙田",
+      "region": "新界",
+      "floor": {
+        "id": "M",
+        "name": "中層"
+      },
+      "flat": "F",
+      "transaction_type": "出租",
+      "price_hkd": 15000,
+      "net_area_sqft": 358,
+      "unit_price_sqft": 42,
+      "transaction_date": "2026-11-24",
+      "verified_source": "美聯成交速報 (Midland Feed)",
+      "raw_source_tags": [
+        "MIDLAND"
+      ]
+    },
+    {
+      "id": "NO2026112526112501350011",
+      "estate_name": "樂嶺都匯",
+      "building_name": "樂嶺軒",
+      "district": "上水 / 粉嶺",
+      "region": "新界",
+      "floor": "17",
+      "flat": "C8",
+      "transaction_type": "買賣",
+      "price_hkd": 3939000,
+      "net_area_sqft": 472,
+      "unit_price_sqft": 8345,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG",
+        "FIRSTHAND"
+      ]
+    },
+    {
+      "id": "NO2026112526112502080041",
+      "estate_name": "樂嶺都匯",
+      "building_name": "樂嶺軒",
+      "district": "上水 / 粉嶺",
+      "region": "新界",
+      "floor": "21",
+      "flat": "B5",
+      "transaction_type": "買賣",
+      "price_hkd": 4344000,
+      "net_area_sqft": 482,
+      "unit_price_sqft": 9012,
+      "transaction_date": "2026-11-24",
+      "verified_source": "土地註冊處登記 (Land Registry)",
+      "raw_source_tags": [
+        "LANDREG",
+        "FIRSTHAND"
+      ]
+    }
+  ]
+}
