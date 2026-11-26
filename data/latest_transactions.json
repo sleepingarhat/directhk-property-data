@@ -7,7 +7,9 @@
       "土地註冊處登記 (Land Registry)": 17,
       "美聯成交速報 (Midland Feed)": 7
     },
-    "provider": "Midland Realty + Land Registry Certified Feed"
+    "provider": "Midland Realty + Land Registry Certified Feed",
+    "last_health_check": "2026-11-26T17:26:37.545395+00:00",
+    "runner_note": "Cloud runner IP filtered (HTTP 403); preserved latest verified records."
   },
   "records": [
     {
