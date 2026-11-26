@@ -1,8 +1,11 @@
 name: "Prop Pool A — Land Registry Monthly Records"
 on:
   schedule:
-    - cron: "0 2 5 * *" # 每月5號抓取上月土地註冊處官方成交
+    - cron: "0 3 2 * *" # 每月2號同步土地註冊處月度統計
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -13,4 +16,11 @@ jobs:
         with:
           python-version: '3.11'
       - name: Run Land Registry Scraper
-        run: echo "Scraping Land Registry Data..."
+        run: |
+          python scrapers/landreg_monthly_scraper.py
+      - name: Commit and Push Data
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(data): automated land registry monthly stats update [skip ci]" && git push)
