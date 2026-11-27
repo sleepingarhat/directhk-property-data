@@ -2,7 +2,7 @@
   "metadata": {
     "title": "香港最新住宅成交與租賃紀錄",
     "updated_at": "2026-11-26T18:04:42.555159+00:00",
-    "last_attempt_at": "2026-11-26T18:04:42.555159+00:00",
+    "last_attempt_at": "2026-11-27T04:24:15.976630+00:00",
     "validation_status": "passed",
     "total_records": 24,
     "valid_records_count": 24,
@@ -12,7 +12,9 @@
       "土地註冊處登記 (Land Registry)": 17
     },
     "provider": "Midland Realty + Land Registry Certified Feed",
-    "status": "online_live_sync"
+    "status": "fallback_preserved",
+    "last_health_check": "2026-11-27T04:24:15.976630+00:00",
+    "runner_note": "Scrape attempt failed (HTTPError); preserved 24 valid records."
   },
   "records": [
     {
